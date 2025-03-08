@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 //Write a program which accept temperature in Fahrenheit and convert it into Celsius.
 
 #include<stdio.h>
@@ -19,25 +18,3 @@ int main()
 
 
 }
-=======
-//Write a program which accept temperature in Fahrenheit and convert it into Celsius.
-
-#include<stdio.h>
-#include<conio.h>
-
-int main()
-
-{
-    float Fa = 0.0, Ce = 0.0;
-
-    printf("Enter Temperature in Fahrenheit:");
-    scanf("%f",&Fa);
-
-    Ce =((Fa - 32) *(5.0 / 9.0));
-
-    printf("Temperature in Celsius: %f",Ce);
-    getch();
-
-
-}
->>>>>>> 4196d8b (C_Programming)
