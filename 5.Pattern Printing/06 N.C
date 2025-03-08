@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include<stdio.h>
 #include<conio.h>
 
@@ -32,3 +33,39 @@ int main()
     getch();
     return 0;
 }
+=======
+#include<stdio.h>
+#include<conio.h>
+
+int main()
+{
+    int R = 0, C = 0, Cnt = 0;
+
+    printf("\n Enter Row & Column Count : ");
+    scanf("%d",&Cnt);       /// 5
+
+    printf("\n ****** Pattern ****** \n\n");
+
+    for( R = 1; R <= Cnt; R++ )          /// Row
+    {
+        for( C = 1; C <= Cnt; C++ )      /// Column
+        {
+            if( C == 1 || C == Cnt || R == C )
+            {
+                printf(" * ");
+            }
+            else
+            {
+                printf("   ");
+            }
+
+        }
+        printf("\n");
+    }
+
+    printf("\n ======= Thanks ======== \n");
+
+    getch();
+    return 0;
+}
+>>>>>>> 4196d8b (C_Programming)

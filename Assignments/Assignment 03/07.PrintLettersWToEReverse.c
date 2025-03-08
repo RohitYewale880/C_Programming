@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ///Write a program to print the letters from w to e using a loop. (reverse, fixed range)
 
 
@@ -18,3 +19,25 @@ void main()
     getch();
     return 0;
 }
+=======
+///Write a program to print the letters from w to e using a loop. (reverse, fixed range)
+
+
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+    char ch = '/0';
+
+    printf("Letters form w To e =>");
+
+    for(ch ='w';ch>='e';ch--)
+    {
+        printf("\n  %c",ch);
+    }
+
+    getch();
+    return 0;
+}
+>>>>>>> 4196d8b (C_Programming)

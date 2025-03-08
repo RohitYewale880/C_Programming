@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include<stdio.h>
 #include<conio.h>
 
@@ -17,3 +18,24 @@ int main()
     return 0;
 
 }
+=======
+#include<stdio.h>
+#include<conio.h>
+
+int main()
+{
+
+    int Kmeter = 0, Meter = 0;
+
+    printf("Enter Value Of Kilometer :");
+    scanf ("%d",&Kmeter);
+
+    Meter = Kmeter * 1000;
+
+    printf("%d Kilometer = %d Meter", Kmeter, Meter);
+
+    getch();
+    return 0;
+
+}
+>>>>>>> 4196d8b (C_Programming)
