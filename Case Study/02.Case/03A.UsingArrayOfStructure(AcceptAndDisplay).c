@@ -14,6 +14,7 @@ struct Stud
     float Total;
     float Per;
 };
+
 int main()
 {
     int i = 0;

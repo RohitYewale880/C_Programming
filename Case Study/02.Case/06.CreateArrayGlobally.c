@@ -18,13 +18,29 @@ struct Stud
     float Total;
     float Per;
 };
+
+struct Stud Std[3]={}; \\\Create Array Golbally
+
 int main()
 {
+    int i = 0;
     struct Stud Std;
-    Accept_Student_Details(&Std);
-    Display_Student_Details(&Std);
 
+    printf("Enter Student Details =>");
+
+    for(i = 0; i < 3; i++)
+    {
+        Accept_Student_Details(&Std);
+    }
+
+    printf("\n\n\nDetails of Student => ");
+    for(i = 0; i < 3; i++)
+    {
+        Display_Student_Details(&Std);
+    }
+    printf("\n==============================================");
     printf("\n Thanks For Using Our Application....");
+    printf("\n==============================================");
 
     getch();
     return 0;
@@ -33,8 +49,6 @@ int main()
 
 Accept_Student_Details(struct Stud *sPtr)
 {
-        printf("Enter Student Details =>");
-
         printf("\n\nEnter Roll Number : ");
         scanf("%d",&sPtr->Roll_No);
 
@@ -60,7 +74,6 @@ Accept_Student_Details(struct Stud *sPtr)
 
 Display_Student_Details(struct Stud *sPtr)
 {
-        printf("\n\n\nDetails of Student => ");
         printf("\n==============================================");
         printf("\n Roll_Number = %d",sPtr->Roll_No);
         printf("\n Name        = %s",sPtr->Name);
