@@ -1,4 +1,4 @@
-///1.	Write a program to check if a given number is even or odd.
+///1.	Write a program to check if a given number is even or odd...
 
 #include<stdio.h>
 #include<conio.h>
