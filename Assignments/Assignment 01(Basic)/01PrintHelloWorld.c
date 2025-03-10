@@ -1,4 +1,4 @@
-///1.	Write a program to display the message "Hello World".
+///1.Write a program to display the message "Hello World"...
 
 #include<stdio.h>
 #include<conio.h>
