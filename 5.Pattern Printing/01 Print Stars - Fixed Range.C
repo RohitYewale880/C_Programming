@@ -1,3 +1,4 @@
+///print * 4 by 7
 #include<stdio.h>
 #include<conio.h>
 
