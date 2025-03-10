@@ -1,5 +1,5 @@
 /*Write a program to perform the bitwise AND operation between two integers. The program Accept input
-two integer values, apply the bitwise AND operator, and display the result.*/
+two integer values, apply the bitwise AND operator, and display the result....*/
 
 #include<stdio.h>
 #include<conio.h>
