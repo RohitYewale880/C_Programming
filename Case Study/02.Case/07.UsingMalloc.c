@@ -19,24 +19,28 @@ struct Stud
     float Per;
 };
 
-struct Stud Std[3]={}; ///Create Array Globally
 
 int main()
 {
-    int i = 0;
-    struct Stud Std;
+    int i = 0, Cnt = 0;
+    struct Stud *StdPtr;
 
-    printf("Enter Student Details =>");
+    printf("Enter Count Of Students =>");
+    scanf("%d",&Cnt);
 
-    for(i = 0; i < 3; i++)
+    StdPtr = (struct Stud*) malloc (sizeof(struct Stud) * (Cnt));
+
+    printf("\n\nEnter Student Details =>");
+
+    for(i = 0; i < Cnt; i++)
     {
-        Accept_Student_Details(&Std);
+        Accept_Student_Details(&StdPtr[i]);
     }
 
     printf("\n\n\nDetails of Student => ");
-    for(i = 0; i < 3; i++)
+    for(i = 0; i < Cnt; i++)
     {
-        Display_Student_Details(&Std);
+        Display_Student_Details(&StdPtr[i]);
     }
     printf("\n==============================================");
     printf("\n Thanks For Using Our Application....");
