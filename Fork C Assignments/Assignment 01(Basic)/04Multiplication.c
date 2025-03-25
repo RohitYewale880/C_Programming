@@ -1,4 +1,4 @@
-///4.	Write a program to multiply two numbers provided by the user and display the result.
+///	Write a program to multiply two numbers provided by the user and display the result...
 
 #include<stdio.h>
 #include<conio.h>

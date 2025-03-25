@@ -1,4 +1,4 @@
-///3.	Create a program to add two numbers provided by the user and display the result.
+///3.	Create a program to add two numbers provided by the user and display the result...
 
 #include<stdio.h>
 #include<conio.h>

@@ -1,4 +1,4 @@
-/// Calculate the total and percentage of three Subject
+/// Calculate the total and percentage of three Subject...
 
 #include<stdio.h>
 #include<conio.h>
