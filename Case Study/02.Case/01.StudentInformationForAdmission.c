@@ -1,4 +1,4 @@
-///Student Information For Admission
+///Student Information For Admission...
 
 #include<stdio.h>
 #include<conio.h>
