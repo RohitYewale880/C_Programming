@@ -1,4 +1,4 @@
-///Create, Accept, Display array using loop -Search given element in that array and return its index if found.
+///Create, Accept, Display array using loop -Search given element in that array and return its index if found...
 
 #include<stdio.h>
 #include<conio.h>
