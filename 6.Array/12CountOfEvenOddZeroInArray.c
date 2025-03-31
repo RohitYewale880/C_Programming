@@ -1,4 +1,4 @@
-///Create accept display array using loop  find count of Even, Odd and Null[0] Element in Array
+///Create accept display array using loop  find count of Even, Odd and Null[0] Element in Array...
 
 
 #include<stdio.h>
