@@ -1,4 +1,4 @@
-///Write the program to count of user given number.
+///Write the program to to count of user given number...
 
 #include<stdio.h>
 #include<conio.h>
