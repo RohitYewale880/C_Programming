@@ -26,10 +26,11 @@ int main()
     char ch ='\0';
     struct Stud *Stdptr= NULL;
 
+     Create_Batch(&Stdptr);
 
     up:
     printf("\n****************************Enter Choice Number.*********************************");
-    printf("\n1.Acccept Student Details.\n2.Display Student Details.\n3.Search Student Details.\n4.Create Batch.\n5.Exit\n");
+    printf("\n1.Acccept Student Details.\n2.Display Student Details.\n3.Search Student Details.\n4.Exit\n");
     scanf("%d",&Choice);
 
     switch(Choice)
@@ -59,12 +60,8 @@ int main()
 
         goto up;
         break;
+
     case 4:
-        Create_Batch(&Stdptr);
-        system("cls");
-        goto up;
-        break;
-    case 5:
 
         printf("\n Are You Sure?? \n Do You Want To Exit??? (YES / NO) : ");
 
@@ -120,6 +117,7 @@ void Accept_Student_Details(struct Stud* sPtr,int Cnt)
             fflush(stdin);
 
             printf("\n Enter Student Name : ");
+            fflush(stdin);
             gets(sPtr[i].Name);
 
             printf("\n Enter Physics Marks : ");
