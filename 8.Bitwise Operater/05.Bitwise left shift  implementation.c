@@ -1,3 +1,4 @@
+/// bitwise XOR implement.
 #include<stdio.h>
 #include<conio.h>
 

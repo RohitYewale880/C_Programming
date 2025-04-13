@@ -1,3 +1,4 @@
+/// bitwise AND impliment
 #include<conio.h>
 #include<conio.h>
 
