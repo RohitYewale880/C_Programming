@@ -1,4 +1,4 @@
-///Sum of digits in given number.
+///Sum of digits in given number..
 
 #include<stdio.h>
 #include<conio.h>
