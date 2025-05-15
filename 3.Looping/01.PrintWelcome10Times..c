@@ -1,4 +1,4 @@
-///Print Welcome 10 Times.
+///Print Welcome 10 Times...
 
 #include<stdio.h>
 #include<conio.h>
