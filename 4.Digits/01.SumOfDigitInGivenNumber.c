@@ -1,4 +1,4 @@
-///Sum of digits in given number..
+///Sum of digits in given number
 
 #include<stdio.h>
 #include<conio.h>
@@ -10,6 +10,8 @@ int main()
 
     printf ("Enter Any Number for digit count:");
     scanf("%d",&No);
+
+    /// While condition is here to manipulate the date of program
 
     while (No > 0 )
     {
