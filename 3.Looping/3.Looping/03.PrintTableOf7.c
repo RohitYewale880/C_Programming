@@ -1,4 +1,4 @@
-/// Print Table Of 7..
+/// Print Table Of 7.
 
 #include<stdio.h>
 #include<conio.h>

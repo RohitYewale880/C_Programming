@@ -1,4 +1,5 @@
-/// Print Table Of 7..
+/// Print Table of User Entered Number.Using for
+
 
 #include<stdio.h>
 #include<conio.h>
@@ -6,15 +7,16 @@
 int main()
 
 {
-    int Num = 7, Cnt = 1;
-
+    int Num = 0, Cnt = 0;
+    printf("Enter Any Number:\n");
+    scanf("%d",&Num);
     printf("\n Table of %d is => \n", Num);
 
-    while (Cnt <=10)
+    for (Cnt = 1;Cnt <=10; Cnt++)
     {
         printf(" %3d * %3d = %3d \n",Num, Cnt, (Num *Cnt));
-        Cnt++;
     }
     getch();
     return 0;
 }
+
